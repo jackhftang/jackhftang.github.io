@@ -1,1 +1,55 @@
-hello world
+<!doctype html>
+<html>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    html {
+      background-color: #333;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .container {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #slogan {
+      margin: 0 auto;
+      max-width: 80%;
+      color: #e9e9e9;
+      font-size: 2em;
+      line-height: 1.3em;
+    }
+
+    #slogan .signature {
+      text-align: right;
+      line-height: 2.6em;
+      font-size: .8em;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="slogan">
+      <div>There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult.</div>
+      <div class="signature">C. A. R. Hoare</div>
+    </div>
+  </div>
+</body>
+</html>
+
+
