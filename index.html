@@ -6,6 +6,7 @@
     * {
       padding: 0;
       margin: 0;
+      transition: 0.4s;
     }
 
     html {
@@ -40,15 +41,18 @@
       font-size: .8em;
 
     }
+
+    #slogan .button {
+      font-size: 0.8em;
+      display: inline-block;
+      margin: 1mm 4mm;
+      text-align: center;
+    }
   </style>
+  <script src="http://fb.me/react-0.13.3.js"></script>
 </head>
-<body>
-  <div class="container">
-    <div id="slogan">
-      <div>There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult.</div>
-      <div class="signature">C. A. R. Hoare</div>
-    </div>
-  </div>
+<body id="mount">
+  <script src="bundle.js"></script>
 </body>
 </html>
 
