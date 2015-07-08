@@ -13,6 +13,11 @@ var slogans = [
     content: 'I have no particular talent. I am merely inquisitive.',
     signature: 'Albert Einstein'
   }
+  ,
+  {
+    content: 'First they ignore you, then they laugh at you, then they fight you, then you win.', 
+    signature: 'Mohandas Karamchand Gandhi'
+  }
 ];
 
 var interval = 5*1000;
