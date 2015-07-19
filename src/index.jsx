@@ -18,6 +18,11 @@ var slogans = [
     content: 'First they ignore you, then they laugh at you, then they fight you, then you win.', 
     signature: 'Mohandas Karamchand Gandhi'
   }
+  ,
+  {
+    content: 'Do or do not. There is no try.'
+    signature: 'Anonymous'
+  }
 ];
 
 var interval = 5*1000;
